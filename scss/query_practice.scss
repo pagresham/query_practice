@@ -1,0 +1,36 @@
+.hideme {
+	background-color: #ccc;
+	margin: 1em 0;
+	min-height: 4em;
+	width: 10em;
+	border: 1px solid black;
+	border-radius: .5em;
+	padding: .5em;
+
+	span {
+		// display: block;
+			}
+}
+body {
+	background-color: seagreen;
+}
+input[type=button] {
+	display: block;
+	margin-top: 1em;
+}
+
+
+
+
+
+/**
+ * query selectors
+ * 	by element: $("p")
+ * 	by id: $("#thisElement")
+ * 	by descendants $(".thisClass p") = all p's in .thisClass
+ * 	Adjacent siblings $("h2 + div") = only divs that are adj sibs of h2's
+ * 	General Siblings $("ul ~ p") = general siblins
+ * 	Immediate children $("div > ul") all ul's that are immid. child of divs
+ * 	Multiple Selectors $("p + ul, div ~ p") = ul's that are adj sibs of p's, AND
+ * 	p's that are general siblings of divs.
+ */

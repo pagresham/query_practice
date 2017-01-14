@@ -3,17 +3,35 @@
 <head>
 	<title>query_practice</title>
 	<meta charset="utf-8">
+	<!-- minimized jQuery file -->
 	<script src='jquery-3.1.1.min.js'></script>
+	<!-- jQuery UI plugin -->
+	<script src="jquery-ui.min.js"></script>
+	<!-- my written js file with jQuery examples -->
 	<script src="scripts/query_practice.js"></script>
+	<!-- link to the jQuery UI css files -->
+	<link rel="stylesheet" type="text/css" href="jquery-ui.theme.min.css">
+	<link rel="stylesheet" type="text/css" href="css/query_practice.css">
 </head>
-<body>
+<body id="body">
 	<div id="accordion">
 		<h3><a href="#">What is jQuery?</a></h3>
-		<div> <!-- panel contents --> </div>
+		<div>It is a javascript library</div>
 		<h3><a href="#">Why is it so popular?</a></h3>
-		<div> <!-- panel contents --> </div>
+		<div>It lets you do more in less time with JS</div>
 		<h3><a href="#">Where can I get me some?</a></h3>
-		<div> <!-- panel contents --> </div>
+		<div>Download the files, or use the cdn link.</div>
+	</div>
+	
+	<input type="text" name="your-name"  id="your-name">
+	
+	<input type="button" name="name-button" id="name-button" value="name">
+	
+	<div><textarea id="textarea"></textarea></div>
+
+	<input type="button" name="hide-p" id="hbtn" value="Toggle the text below">
+	<div class="hideme">
+		<p><b>Toggle</b> me on and off</p>
 	</div>
 </body>
 </html>
